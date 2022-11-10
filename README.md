@@ -6,6 +6,6 @@
 ----------------------------------------------------------------------------
 Apple-Mac 에서 구동하는 방법:  
 1. 에디터에서(ex: VScode) 터미널을 실행 / 또는 쉘창 실행.
->> pip3 install selenium
+> pip3 install selenium
   
 pakage_installer를 실행할 필요가 없습니다.
