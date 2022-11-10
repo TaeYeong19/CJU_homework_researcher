@@ -35,6 +35,7 @@ except:
 
     except:
         print("파이어폭스 시도중...")
+        # raise("TestException") #테스트용
         options = webdriver.FirefoxOptions()
         options.add_argument('--headless')
         service = FFService(log_path=os.devnull)
@@ -76,8 +77,6 @@ for i in range(1, int(HowManyListen)*2, 2):
     topic_list.append(a.text)
 
 # 수강 과목 과제 cheak 함수
-
-
 def period(n):
     class_name_xPath = f'//*[@id="content"]/div[3]/div/div[1]/div[2]/div[1]/div[2]/table/tbody[2]/tr[{n}]/td[1]/a'
     browser.find_element(By.XPATH, class_name_xPath).click()
