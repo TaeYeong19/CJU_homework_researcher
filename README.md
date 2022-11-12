@@ -6,7 +6,7 @@ url: https://open.kakao.com/o/sQQe80Me
 
 실행하는 방법: Researcher/먼저\_읽어주세요 참고
 
-## 환경: 윈도우, 리눅스(Ubuntu 확인) / 크롬, 엣지
+## 환경: 윈도우 / 크롬, 엣지
 
 1. User_data.txt <- 에 정보를 기입 해주세요.
 
