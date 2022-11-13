@@ -5,6 +5,7 @@
 url: https://open.kakao.com/o/sQQe80Me  
   
 ## 환경: 윈도우 / 크롬, 엣지  
+#### 사용한 모듈: selenium, webdriver-manager, pyinstaller  
   
 1. User_data.txt <- 에 정보를 기입 해주세요.
 
